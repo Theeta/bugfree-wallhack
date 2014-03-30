@@ -4,16 +4,6 @@ import java.util.*;
 
 public class Varasto implements TuoteVarasto {
 
-//    private static Varasto instanssi;
-//
-//    public static Varasto getInstance() {
-//        if (instanssi == null) {
-//            instanssi = new Varasto();
-//        }
-//
-//        return instanssi;
-//    }
-
     private Kirjanpitaja kirjanpito;
     private HashMap<Tuote, Integer> saldot;
 
